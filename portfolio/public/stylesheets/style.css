@@ -1,0 +1,150 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.text-size-change{
+  font-size: large;
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-group textarea {
+  height: 150px;
+}
+.form-group button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #45a049;
+}
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text {
+  top: 348px;
+  left: 30px;
+  color: rgba(0, 0, 0, 0.81);
+  width: 841px;
+  height: 194px;
+  position: absolute;
+  font-size: 10em;
+  align-self: center;
+  box-shadow: rgb(208, 198, 198) 5px 5px 10px 0px;
+  font-style: normal;
+  font-weight: 900;
+}
+.home-text1 {
+  top: 604px;
+  left: 201px;
+  width: 813px;
+  height: 82px;
+  position: absolute;
+  font-size: 5em;
+}
+
+
+.html-in {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.body-in {
+  font-weight: 400;
+  font-style:normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  color: var(--dl-color-gray-black);
+  background-color: var(--dl-color-gray-white);
+
+}
+
+.contact{
+  padding: 8em;
+}
+
+.card-text, .card-title {
+  color: black;
+}
+
+.about-img .image-about{
+  width:100%;
+  display: block;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.about-img{
+  padding: 50px 0px 0px 0px;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 100%; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+.textt{
+  color: black;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
